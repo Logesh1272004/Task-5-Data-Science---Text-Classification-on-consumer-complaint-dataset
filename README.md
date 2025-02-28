@@ -1,4 +1,5 @@
-# Consumer Complaints Classification
+# Task-5-Data-Science---Text-Classification-on-consumer-complaint-dataset
+
 
 ## 1. Introduction
 Consumer complaints contain valuable insights that can be used to categorize issues into predefined categories for better customer support and trend analysis. In this project, we classify consumer complaints into four categories:
@@ -28,6 +29,7 @@ Since we are dealing with textual data, effective preprocessing is essential. We
 - **Stopword Removal**: Removing common words like "the," "is," and "and" that do not contribute to meaning.
 - **Lemmatization**: Reducing words to their base forms (e.g., "running" → "run").
 - **Combining Text Features**: Merging Issue, Sub-Issue, and Consumer Complaint Narrative into a single input feature.
+  
 
 ## 4. Selection of Multi-Classification Model
 We experiment with multiple models to determine the best approach for text classification:
