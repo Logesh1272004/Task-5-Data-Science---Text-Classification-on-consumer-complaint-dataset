@@ -46,7 +46,7 @@ We experiment with multiple models to determine the best approach for text class
 
 ### Deep Learning Models:
 - Convolutional Neural Network (CNN)
-- Recurrent Neural Network (RNN)
+- My Own Custom Neural Network
 - Long Short-Term Memory (LSTM)
 - Deep Neural Networks (DNN)
 
@@ -94,7 +94,7 @@ We interpret these results to determine the best model for deployment.
 Once the best model is selected, we create a prediction function to classify new consumer complaints. The function follows these steps:
 
 - **Preprocessing Input Text**: Applying the same cleaning steps as the training data.
-- **Vectorizing Input Text**: Using TF-IDF (for ML models) or Tokenization (for DL models).
+- **Vectorizing Input Text**: Using TF-IDF for ML models and Tokenization for DL models)
 - **Making Predictions**: Using the trained model to classify the complaint.
 - **Returning the Category Name**: Mapping the numeric prediction to a human-readable category.
 
@@ -110,5 +110,5 @@ This project demonstrates how machine learning and deep learning techniques can 
 
 - The importance of preprocessing and feature engineering in text classification.
 - The strengths and weaknesses of different models in handling real-world complaint data.
-- The use of deep learning (CNN/LSTM) for improved classification when sufficient data is available.
+- The use of deep learning CNN for improved classification when sufficient data is available.
 - The potential for future improvements such as hyperparameter tuning, ensemble methods, and transformer-based models (BERT).
