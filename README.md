@@ -55,11 +55,6 @@ Each model is trained and evaluated on the dataset using the same train-test spl
 ## 5. Comparison of Model Performance
 To evaluate model performance, we compare:
 
-- **Accuracy**
-- **Precision, Recall, and F1-Score**
-- **Confusion Matrix**
-- **Training vs Validation Loss** (for deep learning models)
-- **Training vs Validation Accuracy Curve** (for deep learning models)
 - Overall Model Comparison:
 - Best Performing Model: Random Forest (99% accuracy)
 - Balanced Model: SVM (99% accuracy)
