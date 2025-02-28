@@ -97,6 +97,7 @@ Once the best model is selected, we create a prediction function to classify new
 - **Vectorizing Input Text**: Using TF-IDF for ML models and Tokenization for DL models)
 - **Making Predictions**: Using the trained model to classify the complaint.
 - **Returning the Category Name**: Mapping the numeric prediction to a human-readable category.
+-  ![Complaint Category Distribution](Image/accuracy.jpg)
 
 ### Example:
 ```python
