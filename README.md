@@ -29,6 +29,8 @@ Since we are dealing with textual data, effective preprocessing is essential. We
 - **Stopword Removal**: Removing common words like "the," "is," and "and" that do not contribute to meaning.
 - **Lemmatization**: Reducing words to their base forms (e.g., "running" → "run").
 - **Combining Text Features**: Merging Issue, Sub-Issue, and Consumer Complaint Narrative into a single input feature.
+- ![Complaint Category Distribution](images/Complaints_By_Product_Category.png)
+
   
 
 ## 4. Selection of Multi-Classification Model
