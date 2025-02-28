@@ -61,6 +61,12 @@ To evaluate model performance, we compare:
 - **Training vs Validation Loss** (for deep learning models)
 - **Training vs Validation Accuracy Curve** (for deep learning models)
 
+Overall Model Comparison:
+Best Performing Model: Random Forest (99% accuracy)
+Balanced Model: SVM (99% accuracy)
+Best Deep Learning Model: CNN/DNN (96% accuracy)
+Baseline Model: Naïve Bayes (98% accuracy)
+
 We visualize these metrics to assess which model performs best in terms of classification effectiveness.
 
 ## 6. Model Evaluation
