@@ -17,6 +17,8 @@ Before applying machine learning models, we analyze the dataset to understand it
 - **Loading the dataset**: Extracting relevant columns (e.g., Product, Issue, Sub-Issue, and Consumer Complaint Narrative).
 - **Checking for missing values**: Identifying and handling missing or inconsistent values.
 - **Class Distribution Analysis**: Visualizing the number of complaints in each category using bar charts and pie charts.
+- ![Complaint Category Distribution](Image/Complaints_By_Product_Category.jpg)
+- ![Complaint Category Distribution](Image/Balanced_Complaints_By_Product_Category.jpg)
 - **Text Length Analysis**: Checking the distribution of complaint text lengths.
 - **Balancing the Dataset**: Applying undersampling to ensure equal representation of categories for fair model training.
 
@@ -29,7 +31,7 @@ Since we are dealing with textual data, effective preprocessing is essential. We
 - **Stopword Removal**: Removing common words like "the," "is," and "and" that do not contribute to meaning.
 - **Lemmatization**: Reducing words to their base forms (e.g., "running" → "run").
 - **Combining Text Features**: Merging Issue, Sub-Issue, and Consumer Complaint Narrative into a single input feature.
-- ![Complaint Category Distribution](Image/Complaints_By_Product_Category.jpg)
+- 
 
   
 
