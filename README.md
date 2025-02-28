@@ -70,6 +70,24 @@ Each model's predictions are analyzed using:
 - **Precision, Recall, F1-Score**: To evaluate classification effectiveness.
 - **Training Graphs for Deep Learning**: To check overfitting or underfitting.
 
+- ## Model Performance Comparison
+
+| Model                 | Precision | Recall | F1-Score | Accuracy |
+|-----------------------|-----------|--------|----------|----------|
+| **Logistic Regression** | 0.98 - 0.99 | 0.98 - 0.99 | 0.98 - 0.99 | **0.98** |
+| **Random Forest**      | 0.99 - 1.00 | 0.99 - 1.00 | 0.99 - 1.00 | **0.99** |
+| **SVM**               | 0.98 - 0.99 | 0.98 - 0.99 | 0.98 - 0.99 | **0.99** |
+| **Naïve Bayes**       | 0.96 - 0.99 | 0.96 - 0.99 | 0.97 - 0.99 | **0.98** |
+| **Deep Neural Network (DNN)** | 0.90 - 0.98 | 0.89 - 0.98 | 0.93 - 0.98 | **0.96** |
+| **Convolutional Neural Network (CNN)** | 0.95 - 0.98 | 0.91 - 1.00 | 0.94 - 0.98 | **0.96** |
+| **Custom Neural Network** | 0.95 - 0.98 | 0.91 - 1.00 | 0.94 - 0.98 | **0.96** |
+
+### Notes:
+- Precision, Recall, and F1-Score are provided as a range across all classes.
+- Accuracy is based on the total dataset performance.
+- Models like Random Forest and SVM achieve **high accuracy**, but deep learning models may generalize better with more data.
+
+
 We interpret these results to determine the best model for deployment.
 
 ## 7. Prediction
